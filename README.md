@@ -18,7 +18,7 @@
 
 *3º - Run migrate command*
 
-    $ (env) python manange.py migrate	
+    $ (env) python manage.py migrate	
 
 *4º - Run script to populate database*
 
