@@ -100,3 +100,9 @@ for region in region_district:
     for distri in region.get('district'):
         data = District(name=distri.get('name'), region=region_object)
         data.save()
+
+data = TicketBus(name="Cartão XYZ", value=100)
+data.save()
+
+data = TicketBus(name="Cartão ABC", value=50)
+data.save()
