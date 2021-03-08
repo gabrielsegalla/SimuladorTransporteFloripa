@@ -20,13 +20,17 @@
 
     $ (env) python manage.py migrate	
 
+*4º - Create user in Django*
+
+    $ (env) python manage.py createsuperuser --email admin@example.com --username admin 
+    
 *4º - Run script to populate database*
 
     $ (env) python script.py	
     
 *5º - Run the project*
 
-    $ (env) python manange.py runserver	
+    $ (env) python manage.py runserver	
 
 ## How to run Frontend
 
