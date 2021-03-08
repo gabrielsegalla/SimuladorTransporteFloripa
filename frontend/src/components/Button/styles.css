@@ -1,0 +1,11 @@
+.button {
+  width: 100%;
+  padding: 8px 5px;
+  border-radius: 5px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.button.outlined {
+  background: #fff;
+}
